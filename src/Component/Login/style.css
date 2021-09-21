@@ -1,0 +1,35 @@
+.formInput {
+    box-sizing: border-box;
+    width: 25vw;
+    border: none;
+    height: 5vh;
+    outline: none;
+    border-radius: 5px;
+    text-decoration-style: none;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.formButton {
+    box-sizing: border-box;
+    width: 25vw;
+    border: none;
+    height: 5vh;
+    outline: none;
+    border-radius: 5px;
+    background-color: crimson;
+    margin: 10px 0;
+}
+
+.formButton:hover {
+    cursor: pointer;
+}
+
+.formButton:active {
+    filter: brightness(0.9);
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+}
